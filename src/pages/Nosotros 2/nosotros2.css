@@ -1,0 +1,48 @@
+.nosotros_bg {
+    background: linear-gradient(180deg, #FFFFFF 6.25%, rgba(0, 102, 164, 0.1) 100%),url('../../images/histori_bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    background-position: center;
+}
+.nosotros_bg img{
+    max-width: 100px;
+}
+.nosot_cont_bg {
+    background-image: url('../../images/Shape.png');
+    margin: 50px 0;
+    padding: 80px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.page_title{
+     color: #0066A4;
+     font-size: 40px;
+     margin-bottom: 0;
+     font-weight: 900;
+     margin-left: 30px;
+}
+.nosot_cont p{
+    color: #2D3436;
+    line-height: 36px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+.product_title {
+    font-size: 32px;
+    font-weight: 700;
+    color: #2D3436;
+}
+
+
+@media screen and (max-width:768px){
+    .nosot_cont p{
+        margin-bottom: 30px;
+    }
+}
+@media screen and (max-width:576px){
+    .nosot_cont_bg img {
+        max-width: 50%;
+    }
+}

@@ -1,0 +1,99 @@
+.AboutUs__main {
+    margin-top: 160px;
+    width: 100%;
+}
+
+.AboutUs__main__2 {
+    /* margin: 70%; */
+    /* margin: 0 15%; */
+}
+
+.AboutUs__main__font {
+    font-size: 32px;
+    font-weight: 600;
+    color: #2d3436;
+}
+
+.AboutUs__div__font {
+    padding-top: 16px;
+    font-size: 24px;
+    color: #2D3436;
+    margin-bottom: 15px;
+}
+
+.card__img {
+    margin-bottom: 10px;
+    background: #0066A4;
+    /* border: 25px solid #0066A4; */
+    padding: 25px;
+    border-radius: 50%;
+}
+
+.vision_img {
+    background: #D46027;
+}
+
+.card__container {
+    /* display: flex;
+    width: 100%;
+    justify-content: space-between; */
+    text-align: center;
+    background-color: #f8f8f8;
+    padding-top: 22px;
+    margin-bottom: 20px;
+}
+
+.card__container__1 {
+    /* padding-top: 22px; */
+    /* height: 435px;
+    width: 45%; */
+    /* background-color: #f8f8f8; */
+    padding-left: 100px;
+    padding-bottom: 100px;
+    text-align: left;
+    padding-right: 25px;
+}
+
+.Misión {
+    font-size: 24px;
+    font-weight: 700;
+    color: #2D3436;
+}
+
+.Proveer {
+    font-size: 18px;
+    color: #2D3436;
+    margin-top: 6px;
+}
+
+@media screen and (max-width:1024px) {
+    .card__container__1 {
+        padding-left: 45px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .card__container__1 {
+        padding-bottom: 30px;
+    }
+    .AboutUs__main {
+        margin-top: 40px;
+    }
+}
+
+.Row__component {
+    /* padding: 0px 120px; */
+}
+
+@media screen and (max-width:576px) {
+    .AboutUs__div__font {
+        font-size: 12px;
+    }
+    .Proveer {
+        font-size: 12px;
+    }
+    .card__img{
+        padding: 15px;
+        width: 80px;
+    }
+}

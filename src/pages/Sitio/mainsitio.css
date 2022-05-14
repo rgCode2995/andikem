@@ -1,0 +1,76 @@
+.sitio_bg{
+    background-image: url('../../images/sitio_bg_image.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    background-position: center;
+}
+.sitio_bg img{
+    max-width: 100%;
+}
+/* visit======================= */
+.visit_bg{
+    /* background-color: #F9FAFF; */
+    background: url('../../images/sitio_bg_map.png'), #F9FAFF;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 50px 0 0; 
+}
+.visit_title h2{
+    color: #D46027;
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-weight: 800;
+}
+.visit_title p{
+    color: #79869F;
+    margin-bottom: 30px;
+}
+.sitio_card{
+    padding: 80px;
+    background-color: #fff;
+    box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+    border-radius: 30px;
+}
+.sitio_card h3{
+    color: #3C403D;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 35px;
+}
+.sitio_card p{
+    color: #737373;
+    line-height: 35px;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+
+/* 
+@media screen and (max-width:1024px){
+    .bg_res {
+        height: 600px !important;
+    }
+} */
+
+@media screen and (max-width:768px){
+    .mainsitio_bg img{
+        width: calc(200px + (367 - 200) * (100vw - 320px) / (576 -320));
+    }
+     .mainsitio_bg .row div {
+         padding: 80px 0 0 !important;
+     }
+     .visit_title h2 {
+         font-size: 24px;
+     }
+}
+
+@media screen and (max-width:576px){
+    .sitio_card{
+        padding: 40px;
+    }
+    .bg_res {
+        height: 500px !important;
+    }
+   
+}

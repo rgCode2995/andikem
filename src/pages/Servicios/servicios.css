@@ -1,0 +1,56 @@
+.serviceo_bg {
+    background: linear-gradient(181.71deg, rgba(0, 102, 164, 0.4) 46%, rgba(0, 102, 164, 0) 167.16%), url('../../images/servicios_bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    background-position: center;
+}
+.serviceo_bg img{
+    max-width: 100%;
+}
+/* .fa-check-circle{
+    font-size: 30px;
+    color: #D46027;
+} */
+.check_cricle {
+    font-size: 30px;
+    color: #D46027;
+}
+.servi_text h3{
+    color: #1D2B4F;
+    font-size: 32px;
+    font-weight: 500;
+}
+.servi_bg{
+    background-image: url('../../images/Shape.png');
+    padding: 70px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* margin: 50px 0; */
+}
+.serv_img img{
+    max-width: 100%;
+}
+
+
+
+
+@media screen and (max-width:576px){
+    .servi_bg{
+        padding: 0;
+    }
+    .servi_text h3{
+        font-size: 24px;
+    }
+}
+
+
+
+
+
+
+
+
+
+

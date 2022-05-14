@@ -1,0 +1,92 @@
+.empresas_bg {
+    background: linear-gradient(181.71deg, rgba(0, 102, 164, 0.4) 46%, rgba(0, 102, 164, 0) 167.16%),
+    url('../../images/servicios_bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    background-position: center;
+}
+.empresas_bg img {
+    max-width: 100%;
+}
+.text_color h2{
+    color: #0066A4 ;
+}
+.empre_componet{
+    padding: 50px 0;
+}   
+.empre_img{
+    position: relative;
+}
+.emper_img_f1 {
+    width: -webkit-fill-available;
+    box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+    border-radius: 40px;
+}
+.emp_bg_img{
+    position: absolute;
+    top: -10px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.empre_componet img {
+    max-width: 100%;
+}
+.visiter{
+    background-color: #0066A4;
+    padding: 10px 40px;
+    border-radius: 50px;
+    color: #fff;
+    border: none;
+    position: absolute;
+    left: 100px;
+    bottom: 70px;
+    transition: all 0.3s ease;
+
+}
+.empre_img:hover .visiter{
+    color: #fff;
+}
+
+@media screen and (max-width:992px){
+    .emp_bg_img img{
+        width: 70%;
+    }
+    .visiter{
+        left: 70px;
+        bottom: 40px;
+    }
+}
+@media screen and (max-width:768px){
+
+    .visiter{
+        left: 50px;
+        bottom: 30px;
+        padding: 5px 30px;
+    }
+     .emper_img_f1 {
+         border-radius: 20px;
+     }
+}
+@media screen and (max-width:576px){
+    
+    .visiter{
+        left: 50px;
+        bottom: 30px;
+        font-size: 14px;
+        
+    }
+    
+}
+@media screen and (max-width:500px){
+
+    .visiter{
+        left: 30px;
+        bottom: 20px;
+    }
+}

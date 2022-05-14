@@ -1,0 +1,100 @@
+.contacto_bg {
+    background: url('../../images/Mask Group.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    background-position: center;
+}
+.contact_main{
+    color: #fff;
+    font-size: 48px;
+    font-weight: 700;
+    position: absolute;
+    bottom: 52px;
+    left: 0;
+    padding-left: 60px;
+}
+
+.cont_icon{
+    min-width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    background-color: #80B3D1;
+    text-align: center;
+    align-items: center;
+    display: grid;
+    justify-content: center;
+}
+/* .fa-phone-alt {
+    color: #0066A4;
+    font-size: 30px;
+} */
+.call_icon {
+    color: #0066A4;
+    font-size: 40px;
+}
+.cont_details h3{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.cont_details p{
+    color: #808080;
+    margin-bottom: 20px;
+}
+.contact_head_text{
+    color: #808080;
+    margin: 50px 0;
+    line-height: 30px;
+}
+
+.cont_form{
+    padding: 50px 0;
+}
+.form_bg{
+    background-color: #0066A4;
+    padding: 60px;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: 500;
+}
+.form_bg .form-control{
+    border: none;
+    padding: 10px 20px;
+}
+::placeholder {
+    color: #cccccc !important;
+}
+.submit_btn {
+    background: #D46027;
+    color: #fff;
+    width: 100%;
+    padding:  10px 0;
+}
+.from_text {
+    line-height: 36px;
+}
+
+@media screen and (max-width :576px){
+    .contact_main {
+        font-size: 30px;
+    }
+    .form_bg{
+        padding: 20px;
+    }
+    /* .fa-phone-alt{
+        font-size: 24px;
+    } */
+    .call_icon{
+        font-size: 30px;
+    }
+    .cont_icon{
+        min-width: 50px;
+        height: 50px;
+    }
+}
+@media screen and (max-width :440px){
+    .contact_main {
+        padding-left: 30px;
+    }
+}

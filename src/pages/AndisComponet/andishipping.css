@@ -1,0 +1,101 @@
+.home_andishipping{
+    position: absolute;
+    z-index: 5;
+    top: 0;
+}
+.home_andishipping img{
+    max-width: 100%;
+}
+.img_rad{
+    border-radius: 20px;
+    max-width: 100%;
+}
+.quienes_text{
+    font-size: 24px;
+    font-weight: 500;
+}
+p{
+    color: #2D3436;
+}
+.nuestros_services{
+    font-size: 24px;
+    font-weight: 500;
+}
+.nues_ser_text h3{
+    font-size: 21px;
+    font-weight: 700;
+}
+.nuestros_services_box{
+    background-color: #F8F8F8;
+    padding: 30px 50px;
+}
+
+
+
+
+.anditerminals_bg {
+    background: linear-gradient(178.48deg, rgba(255, 255, 255, 0.29) 6.59%, rgba(0, 102, 164, 0.29) 98.71%),
+    url('../../images/term_bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    background-position: center;
+}
+
+.andino_bg {
+    background: linear-gradient(178.48deg, rgba(255, 255, 255, 0.29) 6.59%, rgba(0, 102, 164, 0.29) 98.71%),
+    url('../../images/andino_bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    background-position: center;
+}
+.andino_bg img{
+    width: 380px;
+}
+.anditerminals_bg img{
+    max-width: 100%;
+}
+
+.andikem_bg {
+    background: linear-gradient(178.48deg, rgba(255, 255, 255, 0.29) 6.59%, rgba(0, 102, 164, 0.29) 98.71%),
+    url('../../images/andino_bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    background-position: center;
+}
+
+
+
+
+
+
+@media screen and (max-width: 992px){
+    .quienes_text{
+        font-size: 16px;
+    }
+    .nuestros_services{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .andino_bg img{
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 576px){
+    .andi_video {
+        height: 493px;
+    }
+    .andikem_sit_logo{
+        max-width: 60%;
+    }
+    .andisitio_flag {
+        width: 12%;
+    }
+}
+
+

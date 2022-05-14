@@ -1,0 +1,240 @@
+/* .InternationalQuality { */
+    /* width: 100%; */
+    /* margin-top: 140px; */
+/* } */
+
+/* .InternationalQuality__2 { */
+    /* margin: 70%;
+    margin: 0 15%; */
+/* } */
+
+.InternationalQuality__font {
+    font-size: 32px;
+    text-align: center;
+    font-weight: 900;
+    color: #2d3436;
+}
+
+.InternationalQuality__div__font {
+    font-size: 24px;
+    color: #2d3436;
+    margin-top: 13px;
+    font-weight: 500;
+}
+
+.InternationalQuality__3 {
+    text-align: center;
+    /* margin-top: 90px; */
+    padding: 30px 50px 60px;
+}
+
+.InternationalQuality__3 img {
+    margin-bottom: 35px;
+    width: 100%;
+}
+
+.InternationalQuality__3__font {
+    color: #0066A4;
+    font-size: 36px;
+    font-weight: 900;
+    margin-bottom: 15px;
+}
+
+.InternationalQuality__4 {
+    /* display: flex; */
+    margin-bottom: 17px;
+    /* justify-content: space-around; */
+}
+
+.InternationalQuality__4__img {
+    position: relative;
+    overflow: hidden;
+}
+
+.user__image {
+    width: 100%;
+    border-radius: 10px;
+    position: relative;
+    z-index: -1;
+}
+
+.InternationalQuality__4__img:after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 59%, rgba(0, 0, 0, 0) 100%);
+    z-index: 11;
+    border-radius: 10px;
+}
+
+.user_hover_name {
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    z-index: 12;
+    transition: all 0.5s ease;
+    opacity: 0;
+}
+
+.name_hover p {
+    padding: 0 0 0 20px;
+    position: absolute;
+    z-index: 13;
+    color: #fff;
+    font-size: 15px;
+    bottom: 25px;
+    margin: 0;
+    opacity: 0;
+    transition: all 0.2s ease;
+    font-weight: 300;
+}
+
+.name_hover h3 {
+    padding: 0 0 0 20px;
+    position: absolute;
+    z-index: 13;
+    color: #fff;
+    font-size: 25px;
+    bottom: 25px;
+    margin: 0;
+    opacity: 0;
+    transition: all 0.2s ease;
+}
+
+.InternationalQuality__4:hover .name_hover p {
+    bottom: 30px;
+    opacity: 1;
+}
+
+.InternationalQuality__4:hover .name_hover h3 {
+    bottom: 60px;
+    opacity: 1;
+}
+
+.InternationalQuality__4:hover .user_hover_name {
+    bottom: 0px;
+    border-radius: 0 0 10px 10px;
+    opacity: 1;
+}
+
+.user_name {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-radius: 0 0 10px 10px;
+    z-index: 12;
+}
+
+.Precios__2 {
+    color: #0066A4;
+    font-size: 36px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.owl-nav {
+    display: none;
+}
+
+.item__1 {
+    background-color: #FFE0E0;
+    height: 61px;
+    display: flex;
+    align-items: center;
+    padding: 10px 10px;
+    justify-content: space-around;
+}
+
+.down__arrow_pink {
+    font-size: 40px;
+    color: rgb(243, 163, 163);
+    position: absolute;
+    right: 40px;
+    right: 0;
+    margin-right: 20px;
+}
+
+.down__arrow_green {
+    font-size: 40px;
+    color: rgb(163, 243, 190);
+    position: absolute;
+    right: 40px;
+    right: 0;
+    margin-right: 20px;
+}
+
+.item__3_p1 {
+    padding-bottom: 10px;
+}
+
+.item__2 {
+    color: #25213B;
+    font-size: 16px;
+    font-weight: 700;
+    color: #25213B;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0 -30px 0 0;
+    padding: 0 20px 0 0;
+}
+
+.item__3 {
+    margin-bottom: 5px;
+    color: #25213B;
+    font-size: 13px;
+    padding: 0 35px;
+}
+
+.item__3 p {
+    margin-bottom: 0px;
+}
+
+.item__1__color {
+    background-color: #E1FFE0;
+}
+
+.Precios {
+    padding: 0 !important;
+    width: 321px !important;
+}
+
+.precios__row {
+    flex-wrap: nowrap !important;
+}
+
+.owl-carousel .owl-item {
+    min-width: 370px !important;
+}
+
+.owl-stage {
+    display: flex !important;
+}
+
+@media screen and (max-width: 768px) {
+    .InternationalQuality__div__font {
+        font-size: 12px;
+    }
+    .InternationalQuality__font {
+        font-size: 24px;
+        font-weight: 900;
+    }
+    .InternationalQuality {
+        margin-top: 30px;
+    }
+    .InternationalQuality__3__font {
+        font-size: 24px;
+    }
+    .InternationalQuality__3 {
+        padding: 30px 20px 60px;
+    }
+}
+
+@media screen and (max-width:1240px) {
+    .InternationalQuality__2 {
+        width: 100%;
+        margin: 0;
+    }
+}

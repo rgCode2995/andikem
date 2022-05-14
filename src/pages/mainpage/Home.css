@@ -1,0 +1,17 @@
+.main__home {
+    width: 100%;
+    /* display: flex; */
+}
+
+.mainPage__compo {
+    width: calc(100% - 254px);
+    margin-left: auto;
+}
+
+.video__image {
+    width: 100%;
+}
+
+.link__class:hover {
+    color: white;
+}
